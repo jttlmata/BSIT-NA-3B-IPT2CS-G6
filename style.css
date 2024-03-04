@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Ivan Cunanan', sans-serif;
+    box-sizing: border-box; 
+}
+.about{ 
+    width: 100%;
+    padding: 78px 0px;
+}
+.about img{
+    height: auto;
+    width: 420px;
+}
+.about-text{
+   width: 550px;   
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h1{
+    color: #ffffff;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.about-text h5{
+    color: #ffffff;
+    font-size: 35px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+
+}
+span{
+    color: #ffffff;
+}
+.about-text p{
+    color: #ffffff;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+button{
+    background: #f8f8f8;
+    color: #000000;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+}
+button:hover{
+    background: transparent;
+    border: 2px solid #f7f7f7;
+    cursor: pointer;
+}
+.ivan{
+    height: auto;
+    width: px;
+
+}
+.about{
+    background-image: url(ivan.jpg);
+    background-size: cover;
+}
+
+
