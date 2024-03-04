@@ -1,25 +1,47 @@
+:root{
+    --primary-color:#edf2fc;
+    --secondary-color: #212121;
+}
+.dark-theme{
+    --primary-color:#000106;
+    --secondary-color: #fff;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    background-color:#cbb978 ;
+    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
 }
+
 .title{
     padding: 20px;
     text-align: center;
 }
+
+#icon1{
+    
+    width: 30px;
+    cursor: pointer;
+}
+
 .group{
     padding: 5% 0%;
     width: 80%;
     margin: auto;
     text-align: center;
-    color: #bed7ed;
+    color: var(--secondary-color);
     font-weight: 400;
     font-size: 25px;
+    color: var(--primary-colorr);
 }
+
 .group h1, h2{
-    color: #1c68b0;
+    color: var(--secondary-color);
+    color: var(--primary-color);
 }
+
 .row{
     display: flex;
 }
@@ -38,4 +60,25 @@ body{
     -ms-transform: scale(0.8);
     transform: scale(0.8);
     transition: 1s ease;
+}
+
+.btn1{
+    background-color: #1c68b0;
+    color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 1% 40px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+marquee {
+    color: var(--secondary-color);
+    color: var(--primary-color);
+    font-family: Arial, Helvetica, sans-serif;
 }
