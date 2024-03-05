@@ -11,6 +11,10 @@ body{
     margin-left: 0px;
 }
 
+html {
+    font-size: 65%;
+}
+
 #background{
     width: 100%;
     height: 100vh;
