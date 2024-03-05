@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="index1.css">
+</head>
+<body>
+    <section class="top_container">
+        <div class="navbar h-class">
+            <h4 class="logo">Meet the group 6!</h4>
+            <ul class="items v-class">
+                <li><a href="home.html">home</a></li>
+                <li><a href="brybry.html">Bryan</a></li>
+                <li><a href="Jette.html">Jette-lee</a></li>
+                <li><a href="Santos.html">Louelle Ivan</a></li>
+                <li><a href="cunanan.html">Lord Ivan</a></li>
+                <img src="img/moon.png" id="icon1">
+            </ul>
+            </div>
+            <div class="section">
+                
+                <div class="row">
+                    <div class="col">
+                        <img src="img/bry/brypic.jpg" alt="">
+                        <a href="brybry.html"><button class="btn1"><h5>Bryan</h5></button></a>
+                    </div>
+                    <div class="col">
+                        <img src="img/jett/picjet.jpg" alt="">
+                        <a href="Jette.html"><button class="btn1"><h5>Jette-lee</h5></button></a>
+                </div>
+                <div class="col">
+                    <img src="img/ivan/ivan pic.jpg" alt="">
+                    <a href="Santos.html"><button class="btn1"><h5>Louelle Ivan</h5></button></a>
+                </div>
+                <div class="col">
+                    <img src="img/lord/429310576_423826813480284_1999700902379119885_n.jpg" alt="">
+                    <a href="cunanan.html"><button class="btn1"><h5>Lord Ivan</h5></button></a>
+                </div>
+                </div>
+            </section>
+    <div>
+        
+    </div>
+    
+    </div>
+    <script>
+        var icon1 = document.getElementById("icon1");
+        icon1.onclick = function(){
+            document.body.classList.toggle("dark-theme");
+            if(document.body.classList.contains("dark-theme")){
+                icon1.src = "img/moon.png";
+            } else{
+                icon1.src ="img/sun.png";
+            }
+        };
+    </script>
+</body>
+</html>

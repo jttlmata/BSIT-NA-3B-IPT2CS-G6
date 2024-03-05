@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+ }
+ .tsu{
+    width: 75px;
+    height: 75px;
+    padding-top: 5%;
+}
+ .study{
+        width: 100%;
+        height: 100vh;
+        background-image: url(background.png);
+        background-size: cover;
+        background-position: center;
+        position: center;
+}
+
+ nav {
+     display: flex;
+     width: 84%;
+     margin: auto;
+     padding: 20px 0;
+     align-items: center;
+     justify-content: space-between;
+ }
+ nav ul li, nav ul button{
+     display: inline-block;
+     list-style: none;
+     margin: 10px 20px;
+    }
+nav ul button {
+    background: transparent;
+}
+    nav ul li, nav ul button{
+        text-decoration: none;
+        color: #000;
+        font-weight: bold;
+    }
+    nav ul li:hover{ 
+        color: blue;
+    }
+    nav ul button:hover{ 
+        color: blue;
+    }
+    .name {
+        margin-left: 8%;
+        margin-top: 15% ;
+    }
+.name h4, .name p {
+    color: white;
+}
+
+span{
+    color: skyblue;
+}s
+.name p{
+    color: #555;
+    line-height: 22px;
+}
+.images {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.images img {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+  
+    
