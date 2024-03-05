@@ -7,6 +7,7 @@
     --secondary-color: #fff;
 }
 
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -14,19 +15,57 @@ body{
     background-color: var(--primary-color);
     background-color: var(--secondary-color);
 }
-
 .title{
     padding: 20px;
     text-align: center;
 }
-
 #icon1{
     
     width: 30px;
     cursor: pointer;
 }
 
-.group{
+.top_container{
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(rgb(7 0 0/75%),
+    rgb(14 7 7 / 53%)), url(img/pic5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    padding: 0% 1%;
+    position: fixed;
+}
+.logo{
+    margin-right: 25%;
+    color: var(--secondary-color);
+    color: var(--primary-color);
+    font-size: 30px;
+}
+.navbar li{
+    display: inline;
+    padding: 10px 15px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: var(--secondary-color);
+    color: var(--primary-color);
+    font-size: 23px;
+    padding: 4px 4px;
+}
+
+.section h1{
+    color: var(--secondary-color);
+    color: var(--primary-color);
+}
+.section{
     padding: 5% 0%;
     width: 80%;
     margin: auto;
@@ -36,12 +75,6 @@ body{
     font-size: 25px;
     color: var(--primary-colorr);
 }
-
-.group h1, h2{
-    color: var(--secondary-color);
-    color: var(--primary-color);
-}
-
 .row{
     display: flex;
 }
@@ -73,12 +106,7 @@ body{
     margin: 4px 2px;
     cursor: pointer;
     border: none;
-    border-radius: 25px;
+    border-radius: 12px;
     transition: background-color 0.3s ease;
 }
 
-marquee {
-    color: var(--secondary-color);
-    color: var(--primary-color);
-    font-family: Arial, Helvetica, sans-serif;
-}
